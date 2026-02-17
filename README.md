@@ -1,6 +1,6 @@
 # Player Similarity Dashboard
 
-An interactive dashboard to visualize and compare football players based on their behavioral time-series data using Dynamic Time Warping (DTW) similarity.
+An interactive dashboard to visualize and compare football players using spatial heatmaps transformed into serpentine time-series representations, with player similarity computed via cosine similarity on behavioral wave patterns.
 
 ## Direct Installation (Bash)
 
