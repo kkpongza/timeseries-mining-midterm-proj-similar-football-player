@@ -17,7 +17,11 @@ pip install streamlit pandas matplotlib gdown
 # 3. Download the Dataset from Google Drive
 gdown --folder 1CcgvtBeu7rCiFmrsOwY6DAr2LUzBYeAd
 
-# 4. Run the Application
+# 4. Move CSV files to project root
+mv timeseries_mining_proj_midterm_similar_football_player/*.csv . # (MAC)
+Move-Item timeseries_mining_proj_midterm_similar_football_player\*.csv . # (Window)
+
+# 5. Run the Application
 streamlit run app.py
 ```
 
